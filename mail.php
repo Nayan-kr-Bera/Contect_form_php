@@ -23,8 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('your_email@gmail.com', 'vaidic chetana site');
-        $mail->addAddress('your@gmail.com'); // Receiver's email
+        $mail->setFrom('your_email@gmail.com', 'Your Name');
+        $mail->addAddress('your@gmail.com', 'Receiver Name'); // Receiver's email
 
         // Content
         $mail->isHTML(true);
